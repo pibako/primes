@@ -14,6 +14,10 @@ module Primes
       primes
     end
 
+    def nth(n)
+      first(n).last
+    end
+
     # e.g. print table for n = 3
     # __2_3_5
     # 2_4_6_10
