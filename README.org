@@ -1,5 +1,6 @@
 * Primes
-  Display products table for n prime numbers
+  Display products table for n prime numbers. It works on my Mac but
+  should work with any Unix and Unix-like OS-es.
 
 ** Installation
 
@@ -21,7 +22,7 @@
    10 first primes execute:
    : $ primes_printer 10
 
-   You should see something similar:
+   You should see something similar but with tabs istead of spaces:
 #+BEGIN_EXAMPLE
 pi@mac:~/company/louis/primes$ primes_printer 10
   2 3 5 7 11  13  17  19  23  29

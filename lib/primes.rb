@@ -1,6 +1,6 @@
 require "primes/version"
 require "primes/fixnum"
-require_relative "./primes/printer"
+require "primes/printer"
 
 module Primes
   class << self

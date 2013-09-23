@@ -3,7 +3,7 @@ require 'rake/testtask'
 
 Rake::TestTask.new do |t|
   t.libs << 'lib/bramipsum'
-  t.test_files = FileList['test/lib/primes/*_test.rb']
+  t.test_files = FileList['test/lib/primes/test_*.rb'] + FileList['test/lib/test_*.rb']
   t.verbose = true
 end
 
