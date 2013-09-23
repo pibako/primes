@@ -1,0 +1,21 @@
+* Primes
+  Display products table for n prime numbers
+
+** Installation
+
+   - Clone gem from my github account and install the gem:
+     : $ git clone https://github.com/pibako/primes.git
+     : $ cd primes
+     : $ bundle exec rake install
+
+   - To test the gem go execute:
+     : $ bundle exec rake
+     or for playing with tests
+     : $ bundle exec guard -i
+
+** Usage
+
+   This gem installs new executable called: ~primes_printer~. You may
+   need to run ~rbenv rehash~ to rebuild shims. To print a table with
+   10 first primes execute:
+   : $ primes_printer 10

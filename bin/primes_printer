@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/primes"
+
+def usage_message
+  """Usage:
+$ primes_printer size
+
+size - size of the table, must be greater or equal to 1
+"""
+end
+
+if ARGV.size < 1 || ARGV[0].to_i < 1
+  puts usage_message
+else
+  Primes.print_table(ARGV[0].to_i)
+end
